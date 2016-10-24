@@ -1,8 +1,8 @@
 <h1> Welcome to Mega Rentals </h1>
 
-We hope you find exactly what you're looking for in a place to stay.
+<p>We hope you find exactly what you're looking for in a place to stay.</p>
 
-<ul>
+<ul class="well" id="window">
   {{#each model as |rental|}}
     {{rental-tile rental=rental}}
   {{/each}}
