@@ -1,6 +1,10 @@
 <div class= "container">
   <header class= "jumbotron">
     <h1>Mega Rentals</h1>
+    {{#link-to 'index' tagName='button'}}Home{{/link-to}}
+    {{#link-to 'about' tagName='button'}}About{{/link-to}}
+    {{#link-to 'contact' tagName='button'}}Contact Us{{/link-to}}
+    {{#link-to 'announcement' tagName='button'}}Announcements{{/link-to}}
   </header>
     {{outlet}}
   <hr>
