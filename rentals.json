@@ -16,5 +16,11 @@
     "type": "Apartment",
     "bedrooms": 3,
     "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
+  }],
+
+  "announcements": [{
+    "name": "Blake",
+    "message": "This website will give your computer a shit-ton of viruses.",
+    "date": "10/24/2016"
   }]
 }
