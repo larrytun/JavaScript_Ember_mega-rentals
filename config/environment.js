@@ -13,6 +13,13 @@ module.exports = function(environment) {
       }
     },
 
+    firebase: {
+      apiKey: "AIzaSyCSq48LsWR0xC1Y1j-hJm-fDQ2EO9ipEeg",
+      authDomain: "mega-rentals.firebaseapp.com",
+      databaseURL: "https://mega-rentals.firebaseio.com",
+      storageBucket: "mega-rentals.appspot.com",
+    },
+
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
